@@ -36,6 +36,7 @@ function SliderImage() {
     // console.log(data);
 
     const [open, setOpen] = useState(false)
+    // console.log(open, "hello");
 
     const [sel, setSel] = useState('')
 
@@ -43,15 +44,16 @@ function SliderImage() {
     return (
         <>
 
-            <div id='close' style={{ height: "100vh", width: "15%", boxSizing: "border-box", backgroundColor: "#5321CA", position: "relative", color: "white" }}>
-                {/* <div style={{ position: "absolute", right: "12px" }}>
+            <div id='close' style={{
+                height: "100vh",
+                width: "15%",
+                boxSizing: "border-box",
+                backgroundColor: "#5321CA",
+                position: "relative",
+                color: "white"
+            }}>
+                <div style={{ position: "absolute", right: "12px" }}>
                     <MenuIcon onClick={() => setOpen(true)} />
-                </div> */}
-
-                <div>
-                    <div>
-                        <img src="../" alt="" />
-                    </div>
                 </div>
 
                 {
